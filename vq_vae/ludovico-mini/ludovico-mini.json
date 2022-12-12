@@ -1,0 +1,1 @@
+{"num_hiddens": 128, "num_residual_layers": 2, "num_residual_hiddens": 32, "num_embeddings": 16, "embedding_dim": 128, "commitment_cost": 0.25, "decay": 0.99}

@@ -1,0 +1,72 @@
+-----------------------------------------------------------
+J.S. Bach - The Goldberg Variations
+Sequenced with Cakewalk Pro Audio 5.0 by
+David J. Grossman - dave@unpronounceable.com
+Dave's J.S. Bach Page - http://www.unpronounceable.com/bach
+-----------------------------------------------------------
+Johann Sebastian Bach (1685-1750)
+The Goldberg Variations BWV 988
+Aria with 30 Variations for Harpsichord with 2 Manuals
+-----------------------------------------------------------
+Aria
+Variatio 1 a 1 Clav.
+Variatio 2 a 1 Clav.
+Variatio 3 a 1 Clav. Canone all'Unisono
+Variatio 4 a 1 Clav.
+Variatio 5 a 1 ovvero 2 Clav.
+Variatio 6 a 1 Clav. Canone alla Seconda
+Variatio 7 a 1 ovvero 2 Clav. al tempo di Giga
+Variatio 8 a 2 Clav.
+Variatio 9 a 1 Clav. Canone alla Terza
+Variatio 10 a 1 Clav. Fughetta
+Variatio 11 a 2 Clav.
+Variatio 12 (a 1 Clav.) Canone alla Quarta
+Variatio 13 a 2 Clav.
+Variatio 14 a 2 Clav.
+Variatio 15 a 1 Clav. Canone alla Quinta Andante
+Variatio 16 a 1 Clav. Ouverture
+Variatio 17 a 2 Clav.
+Variatio 18 a 1 Clav. Canone alla Sesta
+Variatio 19 a 1 Clav.
+Variatio 20 a 2 Clav.
+Variatio 21 (a 1 Clav.) Canone alla Settima
+Variatio 22 a 1 Clav. Alla breve
+Variatio 23 a 2 Clav.
+Variatio 24 a 1 Clav. Canone all'Ottava
+Variatio 25 a 2 Clav. adagio
+Variatio 26 a 2 Clav.
+Variatio 27 a 2 Clav. Canone alla Nona
+Variatio 28 a 2 Clav.
+Variatio 29 a 1 ovvero 2 Clav.
+Variatio 30 a 1 Clav. Quodlibet
+Aria da Capo
+-----------------------------------------------------------
+Fourteen Canons on the First Eight Notes of the Goldberg Ground - BWV 1087
+Discovered in 1974 with the autograph manuscript of the Goldberg Variations
+-----------------------------------------------------------
+Canon 1 - soggetto with its retrograde 
+Canon 2 - inverted soggetto with its retrograde 
+Canon 3 - soggetto with its inversion 
+Canon 4 - inverted soggetto with its inversion 
+Canon 5 - Canon Duplex a 4 
+Canon 6 - Canon simplex uber besagtes Fundament a 3 
+Canon 7 - Idem a 3 
+Canon 8 - Canon simplex a 3 il soggetto in Alto 
+Canon 9 - Canon in unisono post semifusam a 3 
+Canon 10 - Alio modo per syncopationes et per ligaturas a 2 
+Canon 11 - Canon duplex ubers Fundament a 5 
+Canon 12 - Canon duplex uber Fundamental - Noten a 5 
+Canon 13 - Triplex canon 
+Canon 14 - Canon a 4 per Augmentationem et Diminutionem 
+-----------------------------------------------------------
+
+I wish to extend my gratitude to:
+
+Tim Smith - for providing the source and realization of the 14 Canons
+http://jan.ucc.nau.edu/~tas3/index.html
+
+T.L. Hubeart - for pointing out errors in my Goldberg Variations sequence and helping out with my sequence of the 14 Canons
+http://members.aol.com/basfawlty/
+
+Yo Tomita - for also pointing out errors in my Goldberg Variations sequence
+http://www.music.qub.ac.uk/~tomita/index.html

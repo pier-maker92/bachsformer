@@ -1,4 +1,4 @@
-# bachsformerbachsformer
+# bachsformer
 ![bachsformer](https://user-images.githubusercontent.com/66723651/207885919-bccaca01-c8ac-4a56-909b-cb9bad1e01de.png)
 
 ## Bach music generation

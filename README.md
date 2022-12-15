@@ -13,7 +13,7 @@ Listen to this example of generated output!
 https://user-images.githubusercontent.com/66723651/207885731-5edd503a-6d79-4a9f-8548-0ab4068ba4d1.mp4
 
 ## Credits
-The implementation of transformer is taken by this awesome minGPT implementation provided by @karpathy
+The implementation of transformer is taken by this awesome GPT implementation provided by @karpathy
 https://github.com/karpathy/minGPT
 Also thanks to @michelemancusi https://github.com/michelemancusi for its precious contribution to the idea!
 

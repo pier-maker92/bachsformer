@@ -8,6 +8,8 @@ You can think at is as variation-performer based on the chosen artist voucabolar
 
 This repo comes with 2 pre-trained models, one for vq-vae and one for transformer. Please note that training is a very poor one, only few epochs for both the models.
 
+https://user-images.githubusercontent.com/66723651/207885731-5edd503a-6d79-4a9f-8548-0ab4068ba4d1.mp4
+
 ## Credits
 The implementation of transformer is taken by this awesome minGPT implementation provided by @karpathy
 https://github.com/karpathy/minGPT
@@ -29,12 +31,6 @@ You can generate via generate.py script
 ```bash
 python generate.py
 ```
-This is an example of generated output 
-
-
-https://user-images.githubusercontent.com/66723651/207885731-5edd503a-6d79-4a9f-8548-0ab4068ba4d1.mp4
-
-
 
 ## Dataset
 The dataset provided for pre-trained models consist of 32 Golberg Variations from J.S. Bach. Midi files for training are placed inside data/midi folder. Feel free to try different/larger dataset but bear in mind that the midi files have to be perfectly quantized!

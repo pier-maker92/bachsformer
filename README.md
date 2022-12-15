@@ -1,5 +1,5 @@
-# bachsformer
-![alt text](.images/bachsformer.png)
+# bachsformerbachsformer
+![bachsformer](https://user-images.githubusercontent.com/66723651/207885919-bccaca01-c8ac-4a56-909b-cb9bad1e01de.png)
 
 ## Bach music generation
 many fantastic attempts have been made to generate music through artificial intelligence. Usually this task is addressed to processors, who obtain outstanding results in the generation of sequences, where the source vocabulary is constituted by the tokenization of the midi symbols. This approach is characterized by the construction of the source vocabulary, as it is not midi symbols that constitute it, but is mediated by a mid-level representation. First of all the original midi sequence is broken into quarters (1/4 of a musical bar). In doing so the time dimension is frozen. Each slice is then reconstructed from a VQ-VAE, composed of a sequence of 16 codebooks, that I called Ludovico-VAE (to pay homage to the great Ludwig Van Beethoven). Once the VQ-VAE has been trained, a decoder-only transformer (the Bachsformer) is trained on the sequences of codebooks that recompose the training-set.
@@ -29,10 +29,13 @@ You can generate via generate.py script
 ```bash
 python generate.py
 ```
-This is the output generate using seed 10
-```bash
-python generate.py - 10
-```
+This is an example of generated output 
+
+
+https://user-images.githubusercontent.com/66723651/207885731-5edd503a-6d79-4a9f-8548-0ab4068ba4d1.mp4
+
+
+
 ## Dataset
 The dataset provided for pre-trained models consist of 32 Golberg Variations from J.S. Bach. Midi files for training are placed inside data/midi folder. Feel free to try different/larger dataset but bear in mind that the midi files have to be perfectly quantized!
 

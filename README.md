@@ -8,6 +8,8 @@ You can think at is as variation-performer based on the chosen artist voucabolar
 
 This repo comes with 2 pre-trained models, one for vq-vae and one for transformer. Please note that training is a very poor one, only few epochs for both the models.
 
+Listen to this example of generated output!
+
 https://user-images.githubusercontent.com/66723651/207885731-5edd503a-6d79-4a9f-8548-0ab4068ba4d1.mp4
 
 ## Credits

@@ -55,13 +55,15 @@ class LudovicoVAE():
         model.load_state_dict(torch.load(os.path.join(self.work_dir,f"state_dict/{state_dict_name}")))
         return model
     
-    def codebooks2vocab(self,model,seq_len=192):
+    def codebooks2vocab(self,model,seq_len=192,tune_name=""):
         model.eval()
         work_dir = "data/midi/"
         miniaturizer = MidiMiniature(1) # 1/4th
-        tunes = [t for t in os.listdir(work_dir) if t.split(".")[1]=="mid"]
-
-        f = open("data/vocab/vocab_16_192length.txt", "w")
+        if not tune_name:
+            tunes = [t for t in os.listdir(work_dir) if t.split(".")[1]=="mid"]
+            f = open("data/vocab/vocab_16_192length.txt", "w")
+        else:
+            tunes = [tune_name]
         for tune in tqdm(tunes):
             quarters = miniaturizer.make_miniature(os.path.join(work_dir,tune))
             quarters = torch.tensor(np.reshape(np.array(quarters),(len(quarters),1,88,32))).to(torch.float32).to(self.device)
@@ -70,7 +72,10 @@ class LudovicoVAE():
             _, quantize, _, encodings = model._vq_vae(vq_output_eval)
             codebooks_idx = np.where(encodings.data.cpu().detach().numpy())[1]
             # 512 sequence in step of 16
-            slices = np.array([codebooks_idx[i*16:i*16+seq_len] for i in range((codebooks_idx.shape[0]-seq_len)//16)])
+            if tune_name:
+                return codebooks_idx
+            else: 
+                slices = np.array([codebooks_idx[i*16:i*16+seq_len] for i in range(((codebooks_idx.shape[0]-seq_len)//16)+1)])
             for sequence in slices:
                 sequence = ','.join(sequence.astype(str))
                 f.write(f"{sequence}")

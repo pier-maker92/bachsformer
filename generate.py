@@ -2,8 +2,8 @@ import random
 import numpy as np 
 from tqdm import tqdm
 from vq_vae.tools import * 
-from mingpt.model import GPT
-from mingpt.utils import set_seed
+from transformer_decoder_only.model import GPT
+from transformer_decoder_only.utils import set_seed
 
 import argparse
 parser = argparse.ArgumentParser()

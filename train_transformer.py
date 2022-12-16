@@ -1,8 +1,8 @@
 import numpy as np 
 from tqdm import tqdm
 from vq_vae.tools import * 
-from mingpt.model import GPT
-from mingpt.trainer import Trainer
+from transformer_decoder_only.model import GPT
+from transformer_decoder_only.trainer import Trainer
 
 class CodebooksDataset(Dataset):
     def __init__(self,device):

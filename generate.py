@@ -35,9 +35,9 @@ if __name__=="__main__":
     torch.manual_seed(args.seed)
     #set_seed(args.seed) # not working
     dtype = torch.float
-    device = torch.device("mps")
+    device = torch.device("cpu")
     config_name = "ludovico-mini"
-    ludovico_vae = LudovicoVAE(config_name)
+    ludovico_vae = LudovicoVAE(config_name,device=device)
     # get model
     try:
         model = ludovico_vae.get_model()

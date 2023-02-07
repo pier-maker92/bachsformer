@@ -64,7 +64,7 @@ Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 <br>
 Please make sure to update tests as appropriate.
-For any question/feedback contact me at pierfrancesco.melucci@gmail.com
+For any question/feedback [contact me here](mailto:pierfrancesco.melucci@gmail.com?subject=[GitHub]From%20Github%20Bachsformer)
 
 ## License
 This project is licensed under the MIT license, [CLICK HERE](LICENSE) to read more about it 
